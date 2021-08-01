@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0F0909426B7142100C96760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0909326B7142100C96760 /* AppDelegate.swift */; };
+		F0F0909626B7142100C96760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0909526B7142100C96760 /* SceneDelegate.swift */; };
+		F0F0909826B7142100C96760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0909726B7142100C96760 /* ViewController.swift */; };
+		F0F0909B26B7142100C96760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F0909926B7142100C96760 /* Main.storyboard */; };
+		F0F0909E26B7142100C96760 /* CrossTheStreet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0F0909C26B7142100C96760 /* CrossTheStreet.xcdatamodeld */; };
+		F0F090A026B7142200C96760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F0909F26B7142200C96760 /* Assets.xcassets */; };
+		F0F090A326B7142200C96760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F090A126B7142200C96760 /* LaunchScreen.storyboard */; };
+		F0F090AE26B7142200C96760 /* CrossTheStreetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F090AD26B7142200C96760 /* CrossTheStreetTests.swift */; };
+		F0F090B826B7142200C96760 /* CrossTheStreetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F090B726B7142200C96760 /* CrossTheStreetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F090AA26B7142200C96760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F0908826B7142100C96760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F0908F26B7142100C96760;
+			remoteInfo = CrossTheStreet;
+		};
+		F0F090B426B7142200C96760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F0908826B7142100C96760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F0908F26B7142100C96760;
+			remoteInfo = CrossTheStreet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F0909026B7142100C96760 /* CrossTheStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTheStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F0909326B7142100C96760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0F0909526B7142100C96760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0F0909726B7142100C96760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0F0909A26B7142100C96760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0F0909D26B7142100C96760 /* CrossTheStreet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossTheStreet.xcdatamodel; sourceTree = "<group>"; };
+		F0F0909F26B7142200C96760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0F090A226B7142200C96760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0F090A426B7142200C96760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F090A926B7142200C96760 /* CrossTheStreetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTheStreetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F090AD26B7142200C96760 /* CrossTheStreetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTheStreetTests.swift; sourceTree = "<group>"; };
+		F0F090B326B7142200C96760 /* CrossTheStreetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossTheStreetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F090B726B7142200C96760 /* CrossTheStreetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossTheStreetUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F0908D26B7142100C96760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090A626B7142200C96760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090B026B7142200C96760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F0908726B7142100C96760 = {
+			isa = PBXGroup;
+			children = (
+				F0F0909226B7142100C96760 /* CrossTheStreet */,
+				F0F090AC26B7142200C96760 /* CrossTheStreetTests */,
+				F0F090B626B7142200C96760 /* CrossTheStreetUITests */,
+				F0F0909126B7142100C96760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F0909126B7142100C96760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F0909026B7142100C96760 /* CrossTheStreet.app */,
+				F0F090A926B7142200C96760 /* CrossTheStreetTests.xctest */,
+				F0F090B326B7142200C96760 /* CrossTheStreetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F0909226B7142100C96760 /* CrossTheStreet */ = {
+			isa = PBXGroup;
+			children = (
+				F0F0909326B7142100C96760 /* AppDelegate.swift */,
+				F0F0909526B7142100C96760 /* SceneDelegate.swift */,
+				F0F0909726B7142100C96760 /* ViewController.swift */,
+				F0F0909926B7142100C96760 /* Main.storyboard */,
+				F0F0909F26B7142200C96760 /* Assets.xcassets */,
+				F0F090A126B7142200C96760 /* LaunchScreen.storyboard */,
+				F0F090A426B7142200C96760 /* Info.plist */,
+				F0F0909C26B7142100C96760 /* CrossTheStreet.xcdatamodeld */,
+			);
+			path = CrossTheStreet;
+			sourceTree = "<group>";
+		};
+		F0F090AC26B7142200C96760 /* CrossTheStreetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F090AD26B7142200C96760 /* CrossTheStreetTests.swift */,
+			);
+			path = CrossTheStreetTests;
+			sourceTree = "<group>";
+		};
+		F0F090B626B7142200C96760 /* CrossTheStreetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F090B726B7142200C96760 /* CrossTheStreetUITests.swift */,
+			);
+			path = CrossTheStreetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F0908F26B7142100C96760 /* CrossTheStreet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F090BB26B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreet" */;
+			buildPhases = (
+				F0F0908C26B7142100C96760 /* Sources */,
+				F0F0908D26B7142100C96760 /* Frameworks */,
+				F0F0908E26B7142100C96760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossTheStreet;
+			productName = CrossTheStreet;
+			productReference = F0F0909026B7142100C96760 /* CrossTheStreet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F090A826B7142200C96760 /* CrossTheStreetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F090BE26B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreetTests" */;
+			buildPhases = (
+				F0F090A526B7142200C96760 /* Sources */,
+				F0F090A626B7142200C96760 /* Frameworks */,
+				F0F090A726B7142200C96760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F090AB26B7142200C96760 /* PBXTargetDependency */,
+			);
+			name = CrossTheStreetTests;
+			productName = CrossTheStreetTests;
+			productReference = F0F090A926B7142200C96760 /* CrossTheStreetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F090B226B7142200C96760 /* CrossTheStreetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F090C126B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreetUITests" */;
+			buildPhases = (
+				F0F090AF26B7142200C96760 /* Sources */,
+				F0F090B026B7142200C96760 /* Frameworks */,
+				F0F090B126B7142200C96760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F090B526B7142200C96760 /* PBXTargetDependency */,
+			);
+			name = CrossTheStreetUITests;
+			productName = CrossTheStreetUITests;
+			productReference = F0F090B326B7142200C96760 /* CrossTheStreetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F0908826B7142100C96760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F0F0908F26B7142100C96760 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F0F090A826B7142200C96760 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F0F0908F26B7142100C96760;
+					};
+					F0F090B226B7142200C96760 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F0F0908F26B7142100C96760;
+					};
+				};
+			};
+			buildConfigurationList = F0F0908B26B7142100C96760 /* Build configuration list for PBXProject "CrossTheStreet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F0908726B7142100C96760;
+			productRefGroup = F0F0909126B7142100C96760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F0908F26B7142100C96760 /* CrossTheStreet */,
+				F0F090A826B7142200C96760 /* CrossTheStreetTests */,
+				F0F090B226B7142200C96760 /* CrossTheStreetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F0908E26B7142100C96760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F090A326B7142200C96760 /* LaunchScreen.storyboard in Resources */,
+				F0F090A026B7142200C96760 /* Assets.xcassets in Resources */,
+				F0F0909B26B7142100C96760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090A726B7142200C96760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090B126B7142200C96760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F0908C26B7142100C96760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F0909826B7142100C96760 /* ViewController.swift in Sources */,
+				F0F0909E26B7142100C96760 /* CrossTheStreet.xcdatamodeld in Sources */,
+				F0F0909426B7142100C96760 /* AppDelegate.swift in Sources */,
+				F0F0909626B7142100C96760 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090A526B7142200C96760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F090AE26B7142200C96760 /* CrossTheStreetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F090AF26B7142200C96760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F090B826B7142200C96760 /* CrossTheStreetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F090AB26B7142200C96760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F0908F26B7142100C96760 /* CrossTheStreet */;
+			targetProxy = F0F090AA26B7142200C96760 /* PBXContainerItemProxy */;
+		};
+		F0F090B526B7142200C96760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F0908F26B7142100C96760 /* CrossTheStreet */;
+			targetProxy = F0F090B426B7142200C96760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0F0909926B7142100C96760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F0909A26B7142100C96760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0F090A126B7142200C96760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F090A226B7142200C96760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0F090B926B7142200C96760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F090BA26B7142200C96760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0F090BC26B7142200C96760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrossTheStreet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0F090BD26B7142200C96760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrossTheStreet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F090BF26B7142200C96760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTheStreet.app/CrossTheStreet";
+			};
+			name = Debug;
+		};
+		F0F090C026B7142200C96760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossTheStreet.app/CrossTheStreet";
+			};
+			name = Release;
+		};
+		F0F090C226B7142200C96760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossTheStreet;
+			};
+			name = Debug;
+		};
+		F0F090C326B7142200C96760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.CrossTheStreetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossTheStreet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F0908B26B7142100C96760 /* Build configuration list for PBXProject "CrossTheStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F090B926B7142200C96760 /* Debug */,
+				F0F090BA26B7142200C96760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F090BB26B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F090BC26B7142200C96760 /* Debug */,
+				F0F090BD26B7142200C96760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F090BE26B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F090BF26B7142200C96760 /* Debug */,
+				F0F090C026B7142200C96760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F090C126B7142200C96760 /* Build configuration list for PBXNativeTarget "CrossTheStreetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F090C226B7142200C96760 /* Debug */,
+				F0F090C326B7142200C96760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0F0909C26B7142100C96760 /* CrossTheStreet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0F0909D26B7142100C96760 /* CrossTheStreet.xcdatamodel */,
+			);
+			currentVersion = F0F0909D26B7142100C96760 /* CrossTheStreet.xcdatamodel */;
+			path = CrossTheStreet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0F0908826B7142100C96760 /* Project object */;
+}
