@@ -1,0 +1,16 @@
+PODS:
+  - TheAnimation (0.4.0)
+
+DEPENDENCIES:
+  - TheAnimation
+
+SPEC REPOS:
+  trunk:
+    - TheAnimation
+
+SPEC CHECKSUMS:
+  TheAnimation: b6d6bac50365897a3aecc5a9e7b4e1461909c1a0
+
+PODFILE CHECKSUM: a19abf3d7716624709aa7d958cf1b63096aa1fd2
+
+COCOAPODS: 1.10.2

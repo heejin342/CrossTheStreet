@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057D78E2EE29B904B5354275934E78A4 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83A382DB5BCFBCEDAC43DE71A61056 /* KeyframeAnimation.swift */; };
+		150DB6D65D16668EB826CAD0A427FA05 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA295320778AA5B9AD70BC06F870E3 /* AnimationKeyPaths.swift */; };
+		20F66CFA55A4CA8E860A7EDA2547BDF0 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890CEF916E10EDF187F4EFBB45F6EC5D /* CAAnimationDelegateProxy.swift */; };
+		2A1160CF155159CE17B926DD798BED29 /* Pods-CrossTheStreet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7090434A410FC10F1AD724CB81E7C547 /* Pods-CrossTheStreet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D1AA04F35028ED514044D9DB71766E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		40FC4EF032BC5AE84BD94465C6FE74C1 /* TheAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E11FD88D000E893C241FD851C6FEF9B9 /* TheAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FC1AC36489925B443DF78505BFBE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4682337F0628516F95D8A33DE58356DE /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB644B4926B7AA20219A040B73E1EDEC /* TransitionAnimation.swift */; };
+		4ABB9FE1A9D5F16107397E3AB4E01093 /* TheAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9AEAEFC758AE5AAF5CB6FDFD6F9EFC /* TheAnimation-dummy.m */; };
+		58FB834CE1ADF7F30BA5E2A69259AD08 /* Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A6BBF0EC9F82D46F7D8A312CCB8C5D /* Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745DF9FAEBA6D98B06CBE74A3566745E /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D6E0690BCDF0620D4F1B203913306 /* Animation.swift */; };
+		7CB8FCC5901F6CCAD9AEF7B642A8A3A8 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB7F12E7189C8902E93D384F077FB /* PrimitiveAnimation.swift */; };
+		7E0E5D48A6CDC3625C99DF39B3B9C976 /* Pods-CrossTheStreetTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F0A9858E5C383C32356A55F8131E /* Pods-CrossTheStreetTests-dummy.m */; };
+		8FB30196CF8EDF184B48E40032AF06BD /* Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED7ABC20F3D768E6A05CC1DD88FF9D /* Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m */; };
+		96134AD720D05862D9183BCC890AB966 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210CB9BE7FA471A1611E306F12B5DDC2 /* BasicAnimation.swift */; };
+		99CAE78F19F89F948C4495C5D2909984 /* Pods-CrossTheStreetTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9B8FE4151BC3D26E87CA159751C86C /* Pods-CrossTheStreetTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B509E3BBF5184F05B1CE6EE94FB04C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D85ED57935699DFED7CB21A2AF5700D /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E3F5ADAA7CB48E590404B5A3C2325A /* PropertyAnimation.swift */; };
+		9FE3464630CCA831AB8597D4B6A93C01 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822CCC47E9B0330DB788D41418B05311 /* TimingFunction.swift */; };
+		D090A6E86C7322679D02398387CB3162 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54106062856FEF0A5002470D16CACE /* SpringAnimation.swift */; };
+		D1FE86F9EB9CE44E6646EF4C49ACDF88 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD698C73A4AEDD58BED6BB7FFE57536 /* AnyAnimation.swift */; };
+		E015AABE4D1291D603A2FEF742BB30AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E6DEE37D39D992F510C8BA072170925A /* Pods-CrossTheStreet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7804E919E48438ED7E85EA7670D03730 /* Pods-CrossTheStreet-dummy.m */; };
+		F4617E1E3427795877D7A9F6FA6AD432 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A20FBF42DE140406C2085B8003DB5B /* AnimationGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C98FF02B7F30A9CC3D3E410E65322EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722F184739336A629C203829F917D092;
+			remoteInfo = "Pods-CrossTheStreet";
+		};
+		8CBB0B374C6A59DC0C2E39F67563AD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25475D17375EE04671C722142A3D74C5;
+			remoteInfo = TheAnimation;
+		};
+		A50568030A24C03A25EF3D690502A55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25475D17375EE04671C722142A3D74C5;
+			remoteInfo = TheAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF77AC3B283369068656CFA66A95DA5 /* Pods-CrossTheStreet-CrossTheStreetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreet-CrossTheStreetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		130EAE94D04D56CB525FA47ED8DA115A /* Pods-CrossTheStreetTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreetTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AAF1315A72F00F99B4A65EE0EF9642B /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TheAnimation.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6CCE986ACDFE97ECF2137976586402 /* Pods_CrossTheStreetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrossTheStreetTests.framework; path = "Pods-CrossTheStreetTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		210CB9BE7FA471A1611E306F12B5DDC2 /* BasicAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicAnimation.swift; path = TheAnimation/Source/BasicAnimation.swift; sourceTree = "<group>"; };
+		2BC46ECE122218121E7CD70446669E9B /* Pods-CrossTheStreetTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreetTests-Info.plist"; sourceTree = "<group>"; };
+		3CF3D2BBF7C7770F5F11F5CD6CB4A1B6 /* Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4215DC08B8F03C74FA2D1CE7B69B5108 /* Pods-CrossTheStreetTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrossTheStreetTests.modulemap"; sourceTree = "<group>"; };
+		439E653B20D44EFCE9A08E3B70E9208A /* Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A54106062856FEF0A5002470D16CACE /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = TheAnimation/Source/SpringAnimation.swift; sourceTree = "<group>"; };
+		4A83A382DB5BCFBCEDAC43DE71A61056 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyframeAnimation.swift; path = TheAnimation/Source/KeyframeAnimation.swift; sourceTree = "<group>"; };
+		4D9AEAEFC758AE5AAF5CB6FDFD6F9EFC /* TheAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TheAnimation-dummy.m"; sourceTree = "<group>"; };
+		61D3D503B7C35CFC9792830D3F7A8701 /* Pods-CrossTheStreet-CrossTheStreetUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreet-CrossTheStreetUITests-Info.plist"; sourceTree = "<group>"; };
+		66A20FBF42DE140406C2085B8003DB5B /* AnimationGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationGroup.swift; path = TheAnimation/Source/AnimationGroup.swift; sourceTree = "<group>"; };
+		69760E718B76037DCAB2197DFD517A5C /* Pods-CrossTheStreet-CrossTheStreetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreet-CrossTheStreetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBA295320778AA5B9AD70BC06F870E3 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationKeyPaths.swift; path = TheAnimation/Source/AnimationKeyPaths.swift; sourceTree = "<group>"; };
+		6BD698C73A4AEDD58BED6BB7FFE57536 /* AnyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyAnimation.swift; path = TheAnimation/Source/AnyAnimation.swift; sourceTree = "<group>"; };
+		7090434A410FC10F1AD724CB81E7C547 /* Pods-CrossTheStreet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrossTheStreet-umbrella.h"; sourceTree = "<group>"; };
+		7116F0A9858E5C383C32356A55F8131E /* Pods-CrossTheStreetTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrossTheStreetTests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7804E919E48438ED7E85EA7670D03730 /* Pods-CrossTheStreet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrossTheStreet-dummy.m"; sourceTree = "<group>"; };
+		7BF7CA436B47464F72A82AB34906758E /* Pods-CrossTheStreet-CrossTheStreetUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrossTheStreet-CrossTheStreetUITests.modulemap"; sourceTree = "<group>"; };
+		822CCC47E9B0330DB788D41418B05311 /* TimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimingFunction.swift; path = TheAnimation/Source/TimingFunction.swift; sourceTree = "<group>"; };
+		890CEF916E10EDF187F4EFBB45F6EC5D /* CAAnimationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAAnimationDelegateProxy.swift; path = TheAnimation/Source/Internal/CAAnimationDelegateProxy.swift; sourceTree = "<group>"; };
+		891216A287B1896E41B8D42C5D37A9B8 /* Pods-CrossTheStreet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreet-Info.plist"; sourceTree = "<group>"; };
+		965D6E0690BCDF0620D4F1B203913306 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = TheAnimation/Source/Animation.swift; sourceTree = "<group>"; };
+		99BFB45C9230106F7FB3AD780DFEA151 /* Pods_CrossTheStreet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrossTheStreet.framework; path = "Pods-CrossTheStreet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7FA8ADA024004F31D03EE2982191B1 /* TheAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TheAnimation-Info.plist"; sourceTree = "<group>"; };
+		9EBDD066DF69A32DA94ADBC8A2AA35E5 /* Pods-CrossTheStreetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A071E315D0FE87586DF11422F94F7B0A /* TheAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TheAnimation.release.xcconfig; sourceTree = "<group>"; };
+		A9FF3F458923CF8701B3A0F6500FDBAA /* Pods-CrossTheStreet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreet.release.xcconfig"; sourceTree = "<group>"; };
+		AB644B4926B7AA20219A040B73E1EDEC /* TransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimation.swift; path = TheAnimation/Source/TransitionAnimation.swift; sourceTree = "<group>"; };
+		B3F29F5C45432A714B5459DD7B82F4BA /* Pods_CrossTheStreet_CrossTheStreetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrossTheStreet_CrossTheStreetUITests.framework; path = "Pods-CrossTheStreet-CrossTheStreetUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B493F3B4684AF7D834587A0237A39DF3 /* TheAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TheAnimation.modulemap; sourceTree = "<group>"; };
+		B8E3F5ADAA7CB48E590404B5A3C2325A /* PropertyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyAnimation.swift; path = TheAnimation/Source/PropertyAnimation.swift; sourceTree = "<group>"; };
+		B9A6BBF0EC9F82D46F7D8A312CCB8C5D /* Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h"; sourceTree = "<group>"; };
+		BA9B8FE4151BC3D26E87CA159751C86C /* Pods-CrossTheStreetTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrossTheStreetTests-umbrella.h"; sourceTree = "<group>"; };
+		BB904F3E5E135AF8E9847264EFFCC6B7 /* Pods-CrossTheStreet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrossTheStreet-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD6D31CAB0B27B889B997D783C184641 /* Pods-CrossTheStreet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossTheStreet-frameworks.sh"; sourceTree = "<group>"; };
+		BE7DB7F12E7189C8902E93D384F077FB /* PrimitiveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveAnimation.swift; path = TheAnimation/Source/PrimitiveAnimation.swift; sourceTree = "<group>"; };
+		CD8078C687E8131113BF2BB4195FFCA1 /* Pods-CrossTheStreet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrossTheStreet.modulemap"; sourceTree = "<group>"; };
+		CFE836B5834E233AA9C8763A45AA437A /* Pods-CrossTheStreetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreetTests.release.xcconfig"; sourceTree = "<group>"; };
+		E11FD88D000E893C241FD851C6FEF9B9 /* TheAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TheAnimation-umbrella.h"; sourceTree = "<group>"; };
+		E65A6EAF2AE604415D965828C779FC27 /* TheAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TheAnimation.debug.xcconfig; sourceTree = "<group>"; };
+		EBE5D9883CDEC64528D2071D0A7963EF /* Pods-CrossTheStreet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossTheStreet.debug.xcconfig"; sourceTree = "<group>"; };
+		EBED7ABC20F3D768E6A05CC1DD88FF9D /* Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m"; sourceTree = "<group>"; };
+		ED26E43EDAC25D87B1C5E599199A713B /* Pods-CrossTheStreet-CrossTheStreetUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossTheStreet-CrossTheStreetUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EDD926D74BD84E17DA99C03821B91D83 /* TheAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TheAnimation-prefix.pch"; sourceTree = "<group>"; };
+		F08435EFD5F9EA0D1DF712A63BCDBA4B /* Pods-CrossTheStreetTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrossTheStreetTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D327FA6F0A4C5B0654813584D2906F /* Pods-CrossTheStreet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossTheStreet-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7122A84317CF5B45F685CF35802A778E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC1AC36489925B443DF78505BFBE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991AC9C071C27C8DDFBEABEB4F10F059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1AA04F35028ED514044D9DB71766E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DF1A210D34C6CDFC681D5CD4CBB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B509E3BBF5184F05B1CE6EE94FB04C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF33F6F49BE2D841248AF298F81FA0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E015AABE4D1291D603A2FEF742BB30AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055354E942DCEA6AB759863AE6165C77 /* Pods-CrossTheStreet-CrossTheStreetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF7CA436B47464F72A82AB34906758E /* Pods-CrossTheStreet-CrossTheStreetUITests.modulemap */,
+				3CF3D2BBF7C7770F5F11F5CD6CB4A1B6 /* Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.markdown */,
+				439E653B20D44EFCE9A08E3B70E9208A /* Pods-CrossTheStreet-CrossTheStreetUITests-acknowledgements.plist */,
+				EBED7ABC20F3D768E6A05CC1DD88FF9D /* Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m */,
+				ED26E43EDAC25D87B1C5E599199A713B /* Pods-CrossTheStreet-CrossTheStreetUITests-frameworks.sh */,
+				61D3D503B7C35CFC9792830D3F7A8701 /* Pods-CrossTheStreet-CrossTheStreetUITests-Info.plist */,
+				B9A6BBF0EC9F82D46F7D8A312CCB8C5D /* Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h */,
+				69760E718B76037DCAB2197DFD517A5C /* Pods-CrossTheStreet-CrossTheStreetUITests.debug.xcconfig */,
+				0FF77AC3B283369068656CFA66A95DA5 /* Pods-CrossTheStreet-CrossTheStreetUITests.release.xcconfig */,
+			);
+			name = "Pods-CrossTheStreet-CrossTheStreetUITests";
+			path = "Target Support Files/Pods-CrossTheStreet-CrossTheStreetUITests";
+			sourceTree = "<group>";
+		};
+		22C2813C6AC72415D8E5500A51B058CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83AD824F8B2159D775BE4CF9ECA048A2 /* Pods-CrossTheStreet */,
+				055354E942DCEA6AB759863AE6165C77 /* Pods-CrossTheStreet-CrossTheStreetUITests */,
+				64DFEA610F9943B9D0B82E9C67A15915 /* Pods-CrossTheStreetTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		357E22157A4289223A6835C7EF65FBB6 /* TheAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				965D6E0690BCDF0620D4F1B203913306 /* Animation.swift */,
+				66A20FBF42DE140406C2085B8003DB5B /* AnimationGroup.swift */,
+				6BBA295320778AA5B9AD70BC06F870E3 /* AnimationKeyPaths.swift */,
+				6BD698C73A4AEDD58BED6BB7FFE57536 /* AnyAnimation.swift */,
+				210CB9BE7FA471A1611E306F12B5DDC2 /* BasicAnimation.swift */,
+				890CEF916E10EDF187F4EFBB45F6EC5D /* CAAnimationDelegateProxy.swift */,
+				4A83A382DB5BCFBCEDAC43DE71A61056 /* KeyframeAnimation.swift */,
+				BE7DB7F12E7189C8902E93D384F077FB /* PrimitiveAnimation.swift */,
+				B8E3F5ADAA7CB48E590404B5A3C2325A /* PropertyAnimation.swift */,
+				4A54106062856FEF0A5002470D16CACE /* SpringAnimation.swift */,
+				822CCC47E9B0330DB788D41418B05311 /* TimingFunction.swift */,
+				AB644B4926B7AA20219A040B73E1EDEC /* TransitionAnimation.swift */,
+				C7F4C95E21F644C6BD5D08454050C192 /* Support Files */,
+			);
+			name = TheAnimation;
+			path = TheAnimation;
+			sourceTree = "<group>";
+		};
+		55B5294F7A1AAA5D9E7168936E3BEB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99BFB45C9230106F7FB3AD780DFEA151 /* Pods_CrossTheStreet.framework */,
+				B3F29F5C45432A714B5459DD7B82F4BA /* Pods_CrossTheStreet_CrossTheStreetUITests.framework */,
+				1D6CCE986ACDFE97ECF2137976586402 /* Pods_CrossTheStreetTests.framework */,
+				1AAF1315A72F00F99B4A65EE0EF9642B /* TheAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64DFEA610F9943B9D0B82E9C67A15915 /* Pods-CrossTheStreetTests */ = {
+			isa = PBXGroup;
+			children = (
+				4215DC08B8F03C74FA2D1CE7B69B5108 /* Pods-CrossTheStreetTests.modulemap */,
+				F08435EFD5F9EA0D1DF712A63BCDBA4B /* Pods-CrossTheStreetTests-acknowledgements.markdown */,
+				130EAE94D04D56CB525FA47ED8DA115A /* Pods-CrossTheStreetTests-acknowledgements.plist */,
+				7116F0A9858E5C383C32356A55F8131E /* Pods-CrossTheStreetTests-dummy.m */,
+				2BC46ECE122218121E7CD70446669E9B /* Pods-CrossTheStreetTests-Info.plist */,
+				BA9B8FE4151BC3D26E87CA159751C86C /* Pods-CrossTheStreetTests-umbrella.h */,
+				9EBDD066DF69A32DA94ADBC8A2AA35E5 /* Pods-CrossTheStreetTests.debug.xcconfig */,
+				CFE836B5834E233AA9C8763A45AA437A /* Pods-CrossTheStreetTests.release.xcconfig */,
+			);
+			name = "Pods-CrossTheStreetTests";
+			path = "Target Support Files/Pods-CrossTheStreetTests";
+			sourceTree = "<group>";
+		};
+		6F742106E4EFE5792E5C7E8FE4BA225D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				357E22157A4289223A6835C7EF65FBB6 /* TheAnimation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83AD824F8B2159D775BE4CF9ECA048A2 /* Pods-CrossTheStreet */ = {
+			isa = PBXGroup;
+			children = (
+				CD8078C687E8131113BF2BB4195FFCA1 /* Pods-CrossTheStreet.modulemap */,
+				BB904F3E5E135AF8E9847264EFFCC6B7 /* Pods-CrossTheStreet-acknowledgements.markdown */,
+				F5D327FA6F0A4C5B0654813584D2906F /* Pods-CrossTheStreet-acknowledgements.plist */,
+				7804E919E48438ED7E85EA7670D03730 /* Pods-CrossTheStreet-dummy.m */,
+				BD6D31CAB0B27B889B997D783C184641 /* Pods-CrossTheStreet-frameworks.sh */,
+				891216A287B1896E41B8D42C5D37A9B8 /* Pods-CrossTheStreet-Info.plist */,
+				7090434A410FC10F1AD724CB81E7C547 /* Pods-CrossTheStreet-umbrella.h */,
+				EBE5D9883CDEC64528D2071D0A7963EF /* Pods-CrossTheStreet.debug.xcconfig */,
+				A9FF3F458923CF8701B3A0F6500FDBAA /* Pods-CrossTheStreet.release.xcconfig */,
+			);
+			name = "Pods-CrossTheStreet";
+			path = "Target Support Files/Pods-CrossTheStreet";
+			sourceTree = "<group>";
+		};
+		C7F4C95E21F644C6BD5D08454050C192 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B493F3B4684AF7D834587A0237A39DF3 /* TheAnimation.modulemap */,
+				4D9AEAEFC758AE5AAF5CB6FDFD6F9EFC /* TheAnimation-dummy.m */,
+				9E7FA8ADA024004F31D03EE2982191B1 /* TheAnimation-Info.plist */,
+				EDD926D74BD84E17DA99C03821B91D83 /* TheAnimation-prefix.pch */,
+				E11FD88D000E893C241FD851C6FEF9B9 /* TheAnimation-umbrella.h */,
+				E65A6EAF2AE604415D965828C779FC27 /* TheAnimation.debug.xcconfig */,
+				A071E315D0FE87586DF11422F94F7B0A /* TheAnimation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TheAnimation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6F742106E4EFE5792E5C7E8FE4BA225D /* Pods */,
+				55B5294F7A1AAA5D9E7168936E3BEB73 /* Products */,
+				22C2813C6AC72415D8E5500A51B058CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A75D7BA3ABB263D361B2DAA5A2EC01D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FB834CE1ADF7F30BA5E2A69259AD08 /* Pods-CrossTheStreet-CrossTheStreetUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E41ED3909223615387AED95DED7494A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1160CF155159CE17B926DD798BED29 /* Pods-CrossTheStreet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358A0DB36A276C2BB89B5AD16A1EBAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CAE78F19F89F948C4495C5D2909984 /* Pods-CrossTheStreetTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5018D3A3208ED774D17774336C77DCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FC4EF032BC5AE84BD94465C6FE74C1 /* TheAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25475D17375EE04671C722142A3D74C5 /* TheAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC69130233C5B673B84D269192FE80B /* Build configuration list for PBXNativeTarget "TheAnimation" */;
+			buildPhases = (
+				D5018D3A3208ED774D17774336C77DCD /* Headers */,
+				94DC2D8A98260CE44F56D50DD0B4B880 /* Sources */,
+				7122A84317CF5B45F685CF35802A778E /* Frameworks */,
+				C954F0D731FC5CBADD76B38457444DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheAnimation;
+			productName = TheAnimation;
+			productReference = 1AAF1315A72F00F99B4A65EE0EF9642B /* TheAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BD8491C5F99BD61D6F5911B38186A64 /* Pods-CrossTheStreetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3667B45C0CB6E99F8D911C59318E3594 /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreetTests" */;
+			buildPhases = (
+				358A0DB36A276C2BB89B5AD16A1EBAAF /* Headers */,
+				412753B13F9E8FB9F7EF543936C1C330 /* Sources */,
+				A02DF1A210D34C6CDFC681D5CD4CBB97 /* Frameworks */,
+				FC0569D41DDF42F4C774B7C8891D9C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC3C3A0BDBFFCDCAF20F373B1FB8552 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrossTheStreetTests";
+			productName = "Pods-CrossTheStreetTests";
+			productReference = 1D6CCE986ACDFE97ECF2137976586402 /* Pods_CrossTheStreetTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FF711889033DA58D09B6B541C448003 /* Pods-CrossTheStreet-CrossTheStreetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD9B18A29F75B414036FB24CEFE97EA /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreet-CrossTheStreetUITests" */;
+			buildPhases = (
+				0A75D7BA3ABB263D361B2DAA5A2EC01D /* Headers */,
+				A6AD92DA946C4060112F53EC9FC8CA3D /* Sources */,
+				EF33F6F49BE2D841248AF298F81FA0F1 /* Frameworks */,
+				470300D7BB5B691655B45E2D05E4C2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2430E2C5E7B49ABECEA822FFB7CC45E /* PBXTargetDependency */,
+			);
+			name = "Pods-CrossTheStreet-CrossTheStreetUITests";
+			productName = "Pods-CrossTheStreet-CrossTheStreetUITests";
+			productReference = B3F29F5C45432A714B5459DD7B82F4BA /* Pods_CrossTheStreet_CrossTheStreetUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		722F184739336A629C203829F917D092 /* Pods-CrossTheStreet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34914154CEB546B5238861A664C3DC /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreet" */;
+			buildPhases = (
+				2E41ED3909223615387AED95DED7494A /* Headers */,
+				793BC499B8E2F1753A0D32DD09F2A122 /* Sources */,
+				991AC9C071C27C8DDFBEABEB4F10F059 /* Frameworks */,
+				543B8C4E14D8A89FDF7A7D2346897205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E5776596531B98271C0529EC3DA040 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrossTheStreet";
+			productName = "Pods-CrossTheStreet";
+			productReference = 99BFB45C9230106F7FB3AD780DFEA151 /* Pods_CrossTheStreet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 55B5294F7A1AAA5D9E7168936E3BEB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722F184739336A629C203829F917D092 /* Pods-CrossTheStreet */,
+				5FF711889033DA58D09B6B541C448003 /* Pods-CrossTheStreet-CrossTheStreetUITests */,
+				3BD8491C5F99BD61D6F5911B38186A64 /* Pods-CrossTheStreetTests */,
+				25475D17375EE04671C722142A3D74C5 /* TheAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		470300D7BB5B691655B45E2D05E4C2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543B8C4E14D8A89FDF7A7D2346897205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C954F0D731FC5CBADD76B38457444DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0569D41DDF42F4C774B7C8891D9C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412753B13F9E8FB9F7EF543936C1C330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0E5D48A6CDC3625C99DF39B3B9C976 /* Pods-CrossTheStreetTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793BC499B8E2F1753A0D32DD09F2A122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DEE37D39D992F510C8BA072170925A /* Pods-CrossTheStreet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DC2D8A98260CE44F56D50DD0B4B880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745DF9FAEBA6D98B06CBE74A3566745E /* Animation.swift in Sources */,
+				F4617E1E3427795877D7A9F6FA6AD432 /* AnimationGroup.swift in Sources */,
+				150DB6D65D16668EB826CAD0A427FA05 /* AnimationKeyPaths.swift in Sources */,
+				D1FE86F9EB9CE44E6646EF4C49ACDF88 /* AnyAnimation.swift in Sources */,
+				96134AD720D05862D9183BCC890AB966 /* BasicAnimation.swift in Sources */,
+				20F66CFA55A4CA8E860A7EDA2547BDF0 /* CAAnimationDelegateProxy.swift in Sources */,
+				057D78E2EE29B904B5354275934E78A4 /* KeyframeAnimation.swift in Sources */,
+				7CB8FCC5901F6CCAD9AEF7B642A8A3A8 /* PrimitiveAnimation.swift in Sources */,
+				9D85ED57935699DFED7CB21A2AF5700D /* PropertyAnimation.swift in Sources */,
+				D090A6E86C7322679D02398387CB3162 /* SpringAnimation.swift in Sources */,
+				4ABB9FE1A9D5F16107397E3AB4E01093 /* TheAnimation-dummy.m in Sources */,
+				9FE3464630CCA831AB8597D4B6A93C01 /* TimingFunction.swift in Sources */,
+				4682337F0628516F95D8A33DE58356DE /* TransitionAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AD92DA946C4060112F53EC9FC8CA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB30196CF8EDF184B48E40032AF06BD /* Pods-CrossTheStreet-CrossTheStreetUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AC3C3A0BDBFFCDCAF20F373B1FB8552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CrossTheStreet";
+			target = 722F184739336A629C203829F917D092 /* Pods-CrossTheStreet */;
+			targetProxy = 0C98FF02B7F30A9CC3D3E410E65322EC /* PBXContainerItemProxy */;
+		};
+		70E5776596531B98271C0529EC3DA040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheAnimation;
+			target = 25475D17375EE04671C722142A3D74C5 /* TheAnimation */;
+			targetProxy = A50568030A24C03A25EF3D690502A55F /* PBXContainerItemProxy */;
+		};
+		E2430E2C5E7B49ABECEA822FFB7CC45E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheAnimation;
+			target = 25475D17375EE04671C722142A3D74C5 /* TheAnimation */;
+			targetProxy = 8CBB0B374C6A59DC0C2E39F67563AD9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7AD65F82DFEEAEED99007B619DBA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A071E315D0FE87586DF11422F94F7B0A /* TheAnimation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TheAnimation/TheAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TheAnimation/TheAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TheAnimation/TheAnimation.modulemap";
+				PRODUCT_MODULE_NAME = TheAnimation;
+				PRODUCT_NAME = TheAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36B1FD6D5B74E2704621FA81DE4C2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65A6EAF2AE604415D965828C779FC27 /* TheAnimation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TheAnimation/TheAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TheAnimation/TheAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TheAnimation/TheAnimation.modulemap";
+				PRODUCT_MODULE_NAME = TheAnimation;
+				PRODUCT_NAME = TheAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6990B45F59204B254E65B8B6ABF9D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBDD066DF69A32DA94ADBC8A2AA35E5 /* Pods-CrossTheStreetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreetTests/Pods-CrossTheStreetTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreetTests/Pods-CrossTheStreetTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		884367E7E9BB19C603914042EEA5D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FF3F458923CF8701B3A0F6500FDBAA /* Pods-CrossTheStreet.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreet/Pods-CrossTheStreet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreet/Pods-CrossTheStreet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F925133B2B37DB39CFBD0298A7E86BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE836B5834E233AA9C8763A45AA437A /* Pods-CrossTheStreetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreetTests/Pods-CrossTheStreetTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreetTests/Pods-CrossTheStreetTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA873A4C12079F3221022E8D48F78ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69760E718B76037DCAB2197DFD517A5C /* Pods-CrossTheStreet-CrossTheStreetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreet-CrossTheStreetUITests/Pods-CrossTheStreet-CrossTheStreetUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreet-CrossTheStreetUITests/Pods-CrossTheStreet-CrossTheStreetUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCB2B2D9B6D0A7476797A696438F20EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF77AC3B283369068656CFA66A95DA5 /* Pods-CrossTheStreet-CrossTheStreetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreet-CrossTheStreetUITests/Pods-CrossTheStreet-CrossTheStreetUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreet-CrossTheStreetUITests/Pods-CrossTheStreet-CrossTheStreetUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E93401AA03C627A31317F3EBBCF9CD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE5D9883CDEC64528D2071D0A7963EF /* Pods-CrossTheStreet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossTheStreet/Pods-CrossTheStreet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossTheStreet/Pods-CrossTheStreet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F34914154CEB546B5238861A664C3DC /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93401AA03C627A31317F3EBBCF9CD82 /* Debug */,
+				884367E7E9BB19C603914042EEA5D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3667B45C0CB6E99F8D911C59318E3594 /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6990B45F59204B254E65B8B6ABF9D015 /* Debug */,
+				9F925133B2B37DB39CFBD0298A7E86BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD9B18A29F75B414036FB24CEFE97EA /* Build configuration list for PBXNativeTarget "Pods-CrossTheStreet-CrossTheStreetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA873A4C12079F3221022E8D48F78ED1 /* Debug */,
+				BCB2B2D9B6D0A7476797A696438F20EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC69130233C5B673B84D269192FE80B /* Build configuration list for PBXNativeTarget "TheAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B1FD6D5B74E2704621FA81DE4C2753 /* Debug */,
+				0A7AD65F82DFEEAEED99007B619DBA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
